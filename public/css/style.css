@@ -1,0 +1,271 @@
+/************************************************************top navigation bar******************************************************/
+#topNav{
+    background-color:black;
+}
+
+.userIcon{
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 1050px;
+    cursor: pointer;
+}
+
+.cartIcon{
+    margin-left:20px;
+    margin-top:15px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.carousel{
+    margin-top:50px;
+}
+
+#logoIconL{
+    margin-top: 10px;
+    margin-right:2px;
+    width: 70px;
+    height: 50px;
+}
+
+#logoIconR{
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#navMen{
+    color: white;
+}
+
+#navMen:hover { 
+    color: gray;
+}
+
+#navWomen{ 
+    color : white;
+}
+
+#navWomen:hover { 
+    color: gray;
+}
+
+/*************************************************************short summary*****************************************************************/
+#sSHead{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2vw;
+}
+
+#sS{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5vw;
+}
+
+/********************************************************shop men and women btn*************************************************************/
+#shopMenBtn{
+    cursor: pointer;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2vw;
+}
+
+#shopWomenBtn{
+    cursor: pointer;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2vw;
+}
+
+/******************************************************************popular header***********************************************************/
+#popularHead{
+    color: black;
+    font-size: 3vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/***************************************************************footer***********************************************************************/
+.footerLogo{
+    margin-top: 1vw;
+}
+
+/********************************************************************shirt tile*************************************************************/
+.tshirtTile{
+    cursor: pointer;
+    float: left;
+    margin: 20px 20px 10px 35px;
+    box-shadow: 2px 2px 2px 2px #d4d4d4;
+}
+
+/******************************************************************individual shirt page pic************************************************/
+.mySlides {
+    display:none;
+}
+
+.slidePic{
+    cursor: pointer;
+    margin: 10px 20px 10px 20px;
+}
+
+.formSize{
+    display:flex;
+    flex-direction: row;
+}
+
+.formQuantity{
+    display: flex;
+    flex-direction: row;
+}
+
+.addToCartBuyNow{
+    display: flex;
+    flex-direction: row;
+}
+
+/***********************************************************************************checkout page*****************************************************************/
+#totalQuantityPrice{
+    display: flex;
+    flex-direction: row;
+    margin-left: 650px;
+}
+
+/**check out**/
+#ckck{
+    margin-top:11px;
+}
+
+/****************************************************************************login page*****************************************************************************/
+.login{
+    box-sizing: content-box;   
+    border: 1px solid black;
+    height:30.6vw;
+    padding:20px;
+}
+
+#signin{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:50px;
+    text-align: center;
+}
+
+#loginpassword{
+    margin-left:100px;
+    padding:15px;
+    width:480px;
+}
+
+#forgotpassword{
+    margin-left:258px;
+}
+
+#loginbutton{
+    margin-left:310px;
+}
+
+#loginemail{
+    margin-left:100px;
+    padding:15px;
+    width:480px;
+}
+
+#registernow{
+    text-align: center;
+}
+
+#exampleModalLabel{
+    text-align: center;
+}
+
+#forgotpasswordemail{
+    width:400px;
+    margin-left:85px;
+}
+
+/*********************************************************register page*******************************************************************/
+#register{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:50px;
+    text-align: center;
+}
+
+#registerusername{
+    margin-left:100px;
+    padding:10px;
+    width:480px;
+}
+
+#registeremail{
+    margin-left:100px;
+    padding:10px;
+    width:480px;
+}
+
+#registerpassword{
+    margin-left:100px;
+    padding:10px;
+    width:480px;
+}
+
+#registerrepeatpassword{
+    margin-left:100px;
+    padding:10px;
+    width:480px;
+}
+
+#tcppp{
+    margin-left:290px;
+}
+
+/************************************************************forgot password***************************************************************/
+#resetpassword{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:50px;
+    text-align: center;
+}
+
+
+/************************************************************profile************************************************************************/
+
+#profilebox{
+    width:1100px;
+    height:450px;
+    border: 3px solid black;
+    margin:0 auto;
+    margin-top:23px;
+    border-radius: 25px;
+    display:flex;
+}
+
+/**left side box**/
+#categorybox{
+    margin-top:-1px;
+    width:350px;
+    border:1px solid black;
+    height:448px;
+    border-right-color: black;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/**right side box**/
+#detailbox{
+    padding: 20px;
+    margin-left:50px;
+}
+
+/**address form **/
+#address{
+    width:400px;
+}
